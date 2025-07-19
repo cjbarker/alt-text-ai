@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alt Text Generator - AI-Powered Image Descriptions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="nav">
+                <div class="logo">
+                    <h1>AltText Generator</h1>
+                </div>
+                <nav class="nav-links">
+                    <a href="#features">Features</a>
+                    <a href="#how-it-works">How it Works</a>
+                    <a href="#pricing">Pricing</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Generate Alt Text with AI</h1>
+                    <p class="hero-subtitle">Upload your images and get accurate, descriptive alt text instantly. Improve accessibility and SEO with AI-powered descriptions.</p>
+                    
+                    <div class="upload-section">
+                        <div class="upload-container" id="uploadContainer">
+                            <div class="upload-area" id="uploadArea">
+                                <div class="upload-icon">📁</div>
+                                <h3>Drop images here or click to browse</h3>
+                                <p>Supports JPG, PNG, GIF, WebP</p>
+                                <input type="file" id="fileInput" multiple accept="image/*" hidden>
+                            </div>
+                        </div>
+                        
+                        <div class="image-preview" id="imagePreview"></div>
+                        
+                        <button class="generate-btn" id="generateBtn" disabled>Generate Alt Text</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features" id="features">
+            <div class="container">
+                <h2>Why Choose Our Alt Text Generator?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🤖</div>
+                        <h3>AI-Powered</h3>
+                        <p>Advanced machine learning algorithms analyze your images to generate accurate descriptions.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Fast Processing</h3>
+                        <p>Get alt text for multiple images in seconds with our optimized processing pipeline.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">♿</div>
+                        <h3>Accessibility First</h3>
+                        <p>Improve web accessibility and comply with WCAG guidelines effortlessly.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works" id="how-it-works">
+            <div class="container">
+                <h2>How It Works</h2>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3>Upload Images</h3>
+                        <p>Drag and drop or select images from your device</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3>AI Analysis</h3>
+                        <p>Our AI analyzes the visual content and context</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3>Get Alt Text</h3>
+                        <p>Receive accurate, descriptive alt text for each image</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Alt Text Generator. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
