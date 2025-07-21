@@ -4,7 +4,7 @@ An intelligent web application that generates descriptive alt text for images us
 
 ## Features
 
-- 🎨 **Modern UI** - Clean, responsive design similar to alttext.ai
+- 🎨 **Modern UI** - Clean, responsive design 
 - 🖼️ **Drag & Drop** - Easy image upload with preview functionality  
 - 🤖 **AI-Powered** - Uses Ollama with LLaVA vision model via LangChain
 - 🔐 **Secure** - File validation and type checking
