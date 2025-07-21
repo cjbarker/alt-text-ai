@@ -9,7 +9,7 @@ An intelligent web application that generates descriptive alt text for images us
 - 🤖 **AI-Powered** - Uses Ollama with LLaVA vision model via LangChain
 - 🔐 **Secure** - File validation and type checking
 - ⚡ **Fast Processing** - Optimized image handling and batch processing
-- ♿ **Accessibility First** - Generates WCAG-compliant alt text
+- ♿ **Accessibility First** - Generates W3C compliant alt text
 
 ## Prerequisites
 
